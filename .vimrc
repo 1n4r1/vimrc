@@ -47,3 +47,5 @@ vnoremap ' "zdi'<C-R>z'<ESC>
 autocmd BufWritePost *.py call Flake8()
 filetype plugin on
 filetype indent on
+
+autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
