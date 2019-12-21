@@ -49,3 +49,4 @@ filetype plugin on
 filetype indent on
 
 autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
+autocmd BufRead,BufWritePost *.md setlocal spell
