@@ -1,3 +1,7 @@
+"file encoding"
+set encoding=utf-8
+set fileencoding=utf-8
+
 "replace colon and semi-colon
 nnoremap ; :
 nnoremap ; :
@@ -49,4 +53,4 @@ filetype plugin on
 filetype indent on
 
 autocmd BufNewFile,BufFilePre,BufRead *.md set filetype=markdown.pandoc
-autocmd BufRead,BufWritePost *.md setlocal spell
+autocmd BufRead,BufWritePost *.md setlocal spell spelllang=en.us
