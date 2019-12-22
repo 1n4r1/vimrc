@@ -3,3 +3,7 @@ OWASP
 Bapp
 XSSvalidator
 XSS
+BApp
+xssValidator
+PhantomJS
+endhighlight
